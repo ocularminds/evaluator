@@ -1,0 +1,22 @@
+{
+  "name": "autonomous",
+  "version": "1.0.0",
+  "description": "Social media automation",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "node src/index.js"
+  },
+  "author": "Festus .B. Jejelowo",
+  "license": "ISC",
+  "dependencies": {
+    "google-auth-library": "^9.0.0",
+    "googleapis": "^14.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "babel-cli": "^6.26.0"
+  }
+}
